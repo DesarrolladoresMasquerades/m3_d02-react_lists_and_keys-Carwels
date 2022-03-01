@@ -1,17 +1,16 @@
 import "./App.css";
 import List from "./components/List";
-import StudentList from "./components/StudentList";
-import ProjectList from "./components/ProjectList";
-import MovieList from "./components/MovieList";
+import MoviesList from "./components/MoviesList";
+import ProjectsList from "./components/ProjectsList"
 
 
 function App() {
   return (
     <div className="App">
-      {/* <List /> */}
-      {/* <StudentList /> */}
-      {/* <ProjectList /> */}
-      <MovieList />
+     <MoviesList />
+     <ProjectsList />
+     <List />
+
     </div>
   );
 }
